@@ -59,7 +59,7 @@ UHI_Analyzer/
 
 📥 Download
 
-👉 Scarica il Plugin (ZIP)
+👉 Scarica il Plugin [isole_calore_analyzer.zip](https://github.com/user-attachments/files/22997949/isole_calore_analyzer.zip)
 
 🧑‍💻 Autore
 
