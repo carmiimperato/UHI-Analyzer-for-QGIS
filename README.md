@@ -5,14 +5,14 @@ Descrizione del progetto
 
 UHI Analyzer for QGIS è un plugin sviluppato per il software QGIS come parte di un progetto di tesi di laurea dedicato allo studio delle isole di calore urbane (Urban Heat Islands, UHI).
 L’obiettivo è fornire uno strumento intuitivo e open source per individuare e visualizzare le aree urbane caratterizzate da elevati valori di temperatura superficiale, favorendo una migliore comprensione dei fenomeni microclimatici e delle loro implicazioni ambientali.
-Il plugin consente di applicare una soglia di temperatura o indice termico (ad esempio ≥ 0.45 in un intervallo normalizzato da 0 a 1) su un layer vettoriale contenente dati di temperatura superficiale o valori normalizzati.
+Il plugin consente di applicare una soglia di temperatura o indice termico su un layer vettoriale contenente dati di temperatura superficiale o valori normalizzati e permette di creare un nuovo layer vettoriale.
 Realizzato con il supporto dell’intelligenza artificiale (AI), questo progetto rappresenta un esempio concreto di integrazione tra conoscenza scientifica, strumenti GIS e automazione intelligente dello sviluppo software.
 
 Funzionalità principali
 - Selezione del layer vettoriale da analizzare
 - Scelta del campo attributo contenente i valori termici o normalizzati
-- Impostazione di una soglia personalizzata (es. 0.45)
-- Creazione di un nuovo layer vettoriale denominato UHI_045
+- Impostazione di una soglia personalizzata 
+- Creazione di un nuovo layer vettoriale
 - Conservazione di tutti gli attributi originali
 - Interfaccia grafica semplice e integrata in QGIS
 
@@ -28,8 +28,8 @@ Dopo l’installazione, il plugin sarà visibile nel menu Plugin → UHI Analyze
 Caricare un layer vettoriale con dati di temperatura superficiale o valori normalizzati
 Dal menu del plugin:
 - Selezionare il layer desiderato
-- Scegliere il campo attributo (es. LST_norm)
-- Impostare la soglia desiderata (es. 0.45)
+- Scegliere il campo attributo 
+- Impostare la soglia desiderata 
 - Cliccare su Esegui analisi
 Il plugin creerà un nuovo layer chiamato UHI_045 contenente solo le aree che superano la soglia impostata
 
