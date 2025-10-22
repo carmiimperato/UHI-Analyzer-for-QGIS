@@ -6,7 +6,6 @@ Descrizione del progetto
 UHI Analyzer for QGIS è un plugin sviluppato per il software QGIS come parte di un progetto di tesi di laurea dedicato allo studio delle isole di calore urbane (Urban Heat Islands, UHI).
 L’obiettivo è fornire uno strumento intuitivo e open source per individuare e visualizzare le aree urbane caratterizzate da elevati valori di temperatura superficiale, favorendo una migliore comprensione dei fenomeni microclimatici e delle loro implicazioni ambientali.
 Il plugin consente di applicare una soglia di temperatura o indice termico (ad esempio ≥ 0.45 in un intervallo normalizzato da 0 a 1) su un layer vettoriale contenente dati di temperatura superficiale o valori normalizzati.
-Il risultato è la creazione automatica di un nuovo layer vettoriale che mostra esclusivamente le aree che superano tale soglia, denominato UHI_045.
 Realizzato con il supporto dell’intelligenza artificiale (AI), questo progetto rappresenta un esempio concreto di integrazione tra conoscenza scientifica, strumenti GIS e automazione intelligente dello sviluppo software.
 
 Funzionalità principali
@@ -44,7 +43,7 @@ Grazie alla sua semplicità e rapidità, può essere utilizzato sia in ambito ac
 
 🤖 Sviluppo assistito da Intelligenza Artificiale
 
-Il progetto è stato interamente sviluppato con l’ausilio dell’intelligenza artificiale, utilizzando ChatGPT (modello GPT-5) come strumento di co-progettazione.
+Il progetto è stato sviluppato con l’ausilio dell’intelligenza artificiale, utilizzando ChatGPT (modello GPT-5) come strumento di co-progettazione.
 L’AI ha supportato la generazione del codice Python, la creazione dell’interfaccia grafica, il debugging e la stesura della documentazione.
 Questo processo rappresenta un caso concreto di uso etico e costruttivo dell’AI nella ricerca scientifica, dove l’intelligenza artificiale non sostituisce il ricercatore, ma ne potenzia la produttività e la capacità creativa.
 
@@ -56,6 +55,7 @@ UHI_Analyzer/
 ├── uhi_analyzer_dialog.py
 ├── uhi_analyzer_dialog_base.ui
 ├── icon.png
+├── resources.qrc
 
 📥 Download
 
@@ -63,9 +63,9 @@ UHI_Analyzer/
 
 🧑‍💻 Autore
 
-Progetto realizzato nell’ambito della Tesi di Laurea di
+Progetto realizzato nell’ambito della Tesi di Laurea Triennale di
 Carmine Imperato,
-Università degli Studi di Napoli, 2025.
+Università degli Studi di Napoli Federico II, 2025.
 
 🌍 Licenza
 
